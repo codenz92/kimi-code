@@ -1,5 +1,11 @@
 # @moonshot-ai/kimi-code
 
+## 0.38.0
+
+### Minor Changes
+
+- [#3060](https://github.com/MoonshotAI/kimi-code/pull/3060) [`8440801`](https://github.com/MoonshotAI/kimi-code/commit/8440801de47ddae29224430048e1228b80cde370) Thanks [@chengluyu](https://github.com/chengluyu)! - Add the WaitFor tool: the agent can now wait for a background task (sub-agent, background bash, or background question) inside the current turn — with an optional task ID and a required timeout of up to 600 seconds — instead of ending the turn and being re-invoked.
+
 ## 0.37.2
 
 ### Patch Changes
